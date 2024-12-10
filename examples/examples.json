@@ -1,0 +1,14 @@
+{
+  "normal_mode_examples": [
+    {
+      "input": "A cat playing in garden",
+      "output": "A playful cat explores a sun-drenched garden, camera pans right to follow movement. Realistic style with natural daylight. Peaceful and serene atmosphere."
+    }
+  ],
+  "master_mode_examples": [
+    {
+      "input": "A cat playing in garden",
+      "output": "A graceful feline explores a meticulously composed garden scene with balanced foreground elements. Smooth tracking shot with shallow depth of field, professional natural lighting with subtle rim highlights. Careful attention to motion continuity and spatial composition."
+    }
+  ]
+}
