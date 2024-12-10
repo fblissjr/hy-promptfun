@@ -17,7 +17,7 @@ While Hunyuan provides their prompt rewrite model, it requires significant compu
 3. Maintains their two-mode system:
    - Normal: Focus on accuracy and comprehension
    - Master: Enhanced composition, lighting, and camera movement
-4. Can be used with various LLMs (GPT-4, GPT-3.5, etc.)
+4. Can be used with any OpenAI API
 
 ## Installation
 
