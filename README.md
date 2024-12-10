@@ -61,7 +61,7 @@ Input Options:
 
 Model Options:
   --mode {normal,master}  Prompt generation mode (default: normal)
-  --model MODEL          LLM model to use (default: gpt-4)
+  --model MODEL          LLM model to use (default: openai gpt-4-turbo)
 
 Output Options:
   --output, -o OUTPUT     Output file path
