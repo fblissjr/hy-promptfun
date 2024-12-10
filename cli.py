@@ -39,9 +39,9 @@ def setup_argparser() -> argparse.ArgumentParser:
     )
     model_group.add_argument(
         '--model',
-        choices=['gpt-4', 'gpt-3.5-turbo', 'claude'],
-        default='gpt-4',
-        help='LLM model to use (default: gpt-4)'
+        choices=['gpt-4', 'gpt-4-turbo', 'gpt-4-0613', 'gpt-4-turbo-2024-04-09'],
+        default='gpt-4-turbo',
+        help='LLM model to use (default: gpt-4-turbo)'
     )
     
     # Output arguments
@@ -72,9 +72,6 @@ class LLMClient:
     def create(model_name: str):
         if model_name.startswith('gpt'):
             return OpenAIClient(model_name)
-        elif model_name == 'claude':
-            # Add Claude implementation
-            raise NotImplementedError("Claude support coming soon")
         else:
             raise ValueError(f"Unsupported model: {model_name}")
 
