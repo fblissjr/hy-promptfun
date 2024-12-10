@@ -23,11 +23,11 @@ def setup_argparser() -> argparse.ArgumentParser:
         type=str,
         help='Text input to generate prompt from'
     )
-    input_group.add_argument(
-        '--image', '-i',
-        type=str,
-        help='Path to input image'
-    )
+    # input_group.add_argument(
+    #     '--image', '-i',
+    #     type=str,
+    #     help='Path to input image'
+    # )
     
     # Mode and model arguments
     model_group = parser.add_argument_group('Model Options')
@@ -35,7 +35,7 @@ def setup_argparser() -> argparse.ArgumentParser:
         '--mode',
         choices=['normal', 'master'],
         default='normal',
-        help='Prompt generation mode (default: normal)'
+        help='Prompt generation mode (default: normal)' 
     )
     model_group.add_argument(
         '--model',

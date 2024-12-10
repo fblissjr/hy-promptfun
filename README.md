@@ -57,7 +57,7 @@ python cli.py -t "A cat playing in the garden" --format json --output prompts/ou
 ```
 Input Options:
   --text, -t TEXT         Text input to generate prompt from
-  --image, -i IMAGE       Path to input image
+  --image, -i IMAGE       NOT IMPLEMENTED YET (tbd)
 
 Model Options:
   --mode {normal,master}  Prompt generation mode (default: normal)
