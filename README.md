@@ -4,8 +4,8 @@ A lightweight alternative to Hunyuan's prompt rewrite model for video generation
 
 ## Why This Exists
 
-The HunyuanVideo model was trained on a specific combination of datasets and prompt styles:
-- ShareGPT4V annotations (high-quality GPT-4V descriptions)
+The HunyuanVideo model is using this model for prompting (https://huggingface.co/xtuner/llava-llama-3-8b-v1_1-transformers), resulting in known dataset captions that have the following:
+- ShareGPT4V annotations
 - InternVL-SFT captioning patterns
 - Structured JSON format with specific components
 - 14 defined camera movement types
